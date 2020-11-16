@@ -227,7 +227,7 @@ func (this *PdfWriter) endObj() {
 
 func (this *PdfWriter) shaOfInt(i int) string {
 	hasher := sha1.New()
-	// Changed sha 0 to allow multiple stream
+	// Changed sha 0 to allow multiple stream/ changed version
 	hasher.Write([]byte(fmt.Sprintf("%s-%s-%s", this.tpl_id_offset, i, this.r.sourceFile)))
 	sha := hex.EncodeToString(hasher.Sum(nil))
 	return sha
