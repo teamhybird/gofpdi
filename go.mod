@@ -1,5 +1,6 @@
-module github.com/phpdave11/gofpdi
+module teamhybird/gofpdi
 
-go 1.12
+go 1.15
 
 require github.com/pkg/errors v0.8.1
+
