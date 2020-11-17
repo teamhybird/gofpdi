@@ -237,6 +237,11 @@ func main() {
 }
 ```
 
+## Acknowledgments
+
+This is a fork  original library can be found here
+https://github.com/phpdave11/gofpdi
+
 Generated PDF:
 
 [example.pdf](https://github.com/teamhybird/gofpdi/files/3483219/example.pdf)
